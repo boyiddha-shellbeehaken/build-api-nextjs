@@ -15,7 +15,8 @@
 <ul>
   
 <li>[...student] = </li> =Catch all dynamic routing <br>
-<li>products = </li> Build GET /  POST API for Dynamic DB <br> [productId] = 
+<li>products = </li> Build GET /  POST API for Dynamic DB <br> <br>
+[productId] = 
 Build PUT / GET / DELETE API for Dynamic DB with Dynamic Routing
 <li>upload = </li> Build POST API for Image upload
 <li>users = </li> Build GET / POST API with Static DB<br>

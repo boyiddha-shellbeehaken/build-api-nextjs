@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Build API with Static & Dynamic DB
 
-## Getting Started
+<ol>
+<li>public = uploaded files store here</li>
+<li>addproduct= </li> Call POST API with MongoDB
+<li>adduser=</li> Call POST API with static DB
+<li>api=</li>
+<ul>
+<li>[...student] = </li> =Catch all dynamic routing
+<li>products = </li> Build GET /  POST API fro Dynamic DB <br> [productId] = 
+Build PUT / GET / DELETE API for Dynamic DB for Dynamic Routing
+<li>upload = </li> Build POST API for Image upload
+<li>users = </li> Build GET / POST API with Static DB
+<br>[id] = 
+Build GET / PUT / DELETE API with static DB
+</ul>
+<li>products =</li> For shows Data (including dynamic routing) From Dynamic DB
+<li>users =</li> For Shows Data (including dynamic routing) from Static DB
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+</ol>
+<ul>
+<li>
+page.js  == root file ( Here handle form to upload Image)
+</li>
+</ul>
+<ul>
+<li>lib => For Dynamic DB</li>
+<li>util => For Static DB</li>
+</ul>
+<ol>
+<li>
+.env.local == Store Database username and password
+</li>
+</ol>

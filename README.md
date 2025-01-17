@@ -1,8 +1,12 @@
 # Build API with Static & Dynamic DB
 
 <ol>
-<li>public = uploaded files store here</li>
-<li>addproduct= </li> Call POST API with MongoDB
+  <li>public = uploaded files store here</li>
+  <li>src = source files br>
+
+  <ol>
+
+    <li>addproduct= </li> Call POST API with MongoDB
 <li>adduser=</li> Call POST API with static DB
 <li>api=</li>
 <ul>
@@ -27,6 +31,11 @@ page.js  == root file ( Here handle form to upload Image)
 <li>lib => For Dynamic DB</li>
 <li>util => For Static DB</li>
 </ul>
+  </ol>
+  
+  </li>
+</ol>
+
 <ol>
 <li>
 .env.local == Store Database username and password

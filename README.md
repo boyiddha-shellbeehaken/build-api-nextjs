@@ -4,10 +4,11 @@
   <li>public = uploaded files store here</li>
   <li>src = source files br>
 
-  <ol>
+<ol>
 
-    <li>addproduct= </li> Call POST API with MongoDB
+<li>addproduct= </li> Call POST API with MongoDB
 <li>adduser=</li> Call POST API with static DB
+
 <li>api=</li>
 <ul>
 <li>[...student] = </li> =Catch all dynamic routing
@@ -21,7 +22,6 @@ Build GET / PUT / DELETE API with static DB
 <li>products =</li> For shows Data (including dynamic routing) From Dynamic DB
 <li>users =</li> For Shows Data (including dynamic routing) from Static DB
 
-</ol>
 <ul>
 <li>
 page.js  == root file ( Here handle form to upload Image)
@@ -34,9 +34,7 @@ page.js  == root file ( Here handle form to upload Image)
   </ol>
   
   </li>
-</ol>
 
-<ol>
 <li>
 .env.local == Store Database username and password
 </li>

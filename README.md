@@ -14,11 +14,11 @@
 <li>api=</li>
 <ul>
   
-<li>[...student] = </li> =Catch all dynamic routing
-<li>products = </li> Build GET /  POST API fro Dynamic DB <br> [productId] = 
-Build PUT / GET / DELETE API for Dynamic DB for Dynamic Routing
+<li>[...student] = </li> =Catch all dynamic routing <br>
+<li>products = </li> Build GET /  POST API for Dynamic DB <br> [productId] = 
+Build PUT / GET / DELETE API for Dynamic DB with Dynamic Routing
 <li>upload = </li> Build POST API for Image upload
-<li>users = </li> Build GET / POST API with Static DB
+<li>users = </li> Build GET / POST API with Static DB<br>
 <br>[id] = 
 Build GET / PUT / DELETE API with static DB
 </ul>
